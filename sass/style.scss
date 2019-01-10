@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import 'variables';
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../images/glob.jpeg');
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main {
+	margin: 50px;
+	padding: 10px 100px;
+	background-color: rgba(83, 60, 73, 0.6);
+	color: $second-color;
+	min-height: 500px;
+}
+
+h1{
+	font-size: 36px;
+	padding: 25px 0 40px 0;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#search {
+	width: 80px;
+	height: 40px;
+	background-color: $main-color;
+	border: none;
+	font-weight: 700;
+	border-radius: 3px;
+	color: $third-color;
+	margin-left: 5px;
+	&:hover{
+		background-color: #716E6E;
+		color: #fff;
+	}
+}
+
+.fields {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+#country-name {
+	height: 40px;
+	width: 220px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	color: grey;
+	border-radius: 3px;
+}
+
+.listCounteries {
+	padding: 10px;
+	text-align: center;
+}
+
+.listItem {
+	margin: 20px;
+	list-style-type: none;
+	text-align: center;
+}
+
+img { 
+	width: 200px;
+	height: 133px; 
+	margin: 0 auto;
+	display: flex;
+}
+
+.second-header {
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	margin-top: 60px;
+}
+
+li {
+	font-size: 20px;
+}
